@@ -1,0 +1,35 @@
+#parent {
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* width: 600px; */
+  height: 600px;
+
+  /* for rows ... */
+
+  justify-content: center;
+
+  /* for columns ...  */
+
+  align-items: center;
+}
+
+#div1 {
+  background-color: red;
+  width: 100px;
+  height: 200px;
+  order: 2;
+}
+#div2 {
+  background-color: blue;
+  width: 100px;
+  height: 200px;
+  order: 1;
+}
+
+.child {
+  height: 200px;
+  width: 200px;
+}

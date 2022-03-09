@@ -1,0 +1,8 @@
+.parent {
+  /* border: 1px black solid; */
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 600px; */
+  justify-content: center;
+  flex-direction: row;
+}
